@@ -25,7 +25,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-	color:#c3426b;
+	color:#040660;
 }
 
 .readmore.btn,
@@ -45,14 +45,14 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover  {
-	background: #c3426b;
+	background: #040660;
 }
 .resume-card-name {
-	color: #c3426b !important;
+	color: #040660 !important;
 }
 body.blog .btn.back ,
 .personal-info a.btn.btn-blog {
-	border:1px solid #c3426b;
+	border:1px solid #040660;
 }
 
 body.blog .btn.back, .personal-info a.btn.btn-blog:last-child{

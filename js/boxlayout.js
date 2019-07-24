@@ -126,7 +126,6 @@ var Boxlayout = (function() {
             isAnimating = true;
 
             var $currentPanel = $workPanels.eq(currentWorkPanel);
-            console.log("currentWorkPanel", currentWorkPanel, "totalWorkPanels", totalWorkPanels)
 
             currentWorkPanel = currentWorkPanel < totalWorkPanels - 1 ? currentWorkPanel + 1 : 0;
             var $nextPanel = $workPanels.eq(currentWorkPanel);
@@ -189,7 +188,6 @@ var Boxlayout = (function() {
                     isAnimating = true;
 
                     var $currentPanel = $workPanels.eq(currentWorkPanel);
-                    console.log("currentWorkPanel", currentWorkPanel, "totalWorkPanels", totalWorkPanels)
 
                     currentWorkPanel = currentWorkPanel < totalWorkPanels - 1 ? currentWorkPanel - 1 : 0;
                     var $nextPanel = $workPanels.eq(currentWorkPanel);
